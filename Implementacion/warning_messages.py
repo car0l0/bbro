@@ -12,5 +12,7 @@ def display_warning(label):
         print("Important: The content you're engaging with may exhibit a bias against people from different cultures or nationalities. It's crucial to recognize the harm that such content can cause and promote acceptance of diversity.")
     elif label == "homophobia":
         print("Attention: The content you're about to encounter may contain material that discriminates against or stigmatizes individuals based on their sexual orientation. Let's be aware of the potential harm such content can inflict.")
+    elif label == "innofensive":
+        print("The content is not offensive")
     else:
         print("No warning message available for this label.")
